@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+    char password = 1;
+    char name[100];
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+    printf(name);
+    //printf("%s", name);
+    return 0;
+}
